@@ -1,5 +1,5 @@
 # Sub-Drill
-A very (very) simple Subdomain Finder based on online certification services
+A very (very) simple Subdomain Finder based on [free] online services
 
 ./Sub-Drill.sh [Domain.Com]
 
