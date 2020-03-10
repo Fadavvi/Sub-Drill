@@ -9,3 +9,8 @@ Used services:
 - crt.sh
 - certspotter
 
+Dependencies:
+
+- Curl 
+- jq
+
