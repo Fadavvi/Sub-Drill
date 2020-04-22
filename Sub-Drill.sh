@@ -1,6 +1,6 @@
 curl --silent https://www.threatcrowd.org/searchApi/v2/domain/report/\?domain=$1 | jq .subdomains | grep -o "\w.*$1" > tmp.txt
 curl --silent https://api.hackertarget.com/hostsearch/\?q\=$1 | grep -o "\w.*$1" >> tmp.txt
-curl --silent https://crt.sh/?q=%.test.com | grep -oP "\<TD\>\K.*\.$1" | sed -e 's/\<BR\>/\n/g' | grep -oP "\K.*\.$1" | sed -e 's/[\<|\>]//g'  >> tmp.txt
+curl --silent https://crt.sh/?q=%.$1 | grep -oP "\<TD\>\K.*\.$1" | sed -e 's/\<BR\>/\n/g' | grep -oP "\K.*\.$1" | sed -e 's/[\<|\>]//g'  >> tmp.txt
 curl --silent https://crt.sh/?q=%.%.$1 | grep -oP "\<TD\>\K.*\.$1" | sed -e 's/\<BR\>/\n/g' | sed -e 's/[\<|\>]//g' >> tmp.txt
 curl --silent https://crt.sh/?q=%.%.%.$1 | grep "$1" | cut -d '>' -f2 | cut -d '<' -f1 | grep -v " " | sort -u >> tmp.txt
 curl --silent https://crt.sh/?q=%.%.%.%.$1 | grep "$1" | cut -d '>' -f2 | cut -d '<' -f1 | grep -v " " | sort -u >> tmp.txt
