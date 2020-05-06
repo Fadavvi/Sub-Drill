@@ -8,10 +8,10 @@ Used services:
 - hackertarget
 - crt.sh
 - certspotter
-- findsubdomains
+- spyse.com
 
 Dependencies:
 
 - Curl 
-- jq
+- ~~jq~~
 
