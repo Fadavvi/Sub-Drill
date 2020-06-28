@@ -10,6 +10,7 @@ Used services:
 - certspotter
 - spyse.com
 - bufferover.run
+- urlscan.io
 
 Dependencies:
 
