@@ -11,6 +11,7 @@ Used services:
 - spyse.com
 - bufferover.run
 - urlscan.io
+- synapsint.com
 
 Dependencies:
 
