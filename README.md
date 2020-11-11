@@ -1,9 +1,12 @@
 # Sub-Drill
-A very (very) simple [API-less] Subdomain Finder based on [free] online services
 
+A very [very] simple and pipe-able script for finding subdomains based on [free] online services without any dependency to API-keys for penetration testers and bug bounty hunters.
+
+
+#### usage:
 ./Sub-Drill.sh [Domain.Com] [optional-output-file]
 
-Used services:
+#### Used services:
 - threatcrowd
 - hackertarget
 - crt.sh
@@ -13,8 +16,9 @@ Used services:
 - urlscan.io
 - synapsint.com
 - jldc.me (anubis)
+- omnisint.io (SonarSearch)
 
-Dependencies:
+#### Dependencies:
 
 - Curl 
 - ~~jq~~
