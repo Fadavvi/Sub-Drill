@@ -12,7 +12,7 @@ Used services:
 - bufferover.run
 - urlscan.io
 - synapsint.com
-- jldc.me
+- jldc.me (anubis)
 
 Dependencies:
 
