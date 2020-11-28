@@ -12,11 +12,13 @@ A very [very] simple and pipe-able script for finding subdomains based on [free]
 - crt.sh
 - certspotter
 - spyse.com
-- bufferover.run
+- bufferover.run [tls,dns]
 - urlscan.io
 - synapsint.com
 - jldc.me (anubis)
 - omnisint.io (SonarSearch)
+- alienvault [otx]
+- riddler.io
 
 #### Dependencies:
 
