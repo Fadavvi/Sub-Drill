@@ -5,6 +5,7 @@ A very [very] simple and pipe-able script for finding subdomains based on [free]
 
 #### usage:
 chmod +x Sub-Drill.sh
+
 ./Sub-Drill.sh [Domain.Com] [optional-output-file]
 
 #### Used services:
