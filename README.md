@@ -21,6 +21,7 @@ chmod +x Sub-Drill.sh
 - omnisint.io (SonarSearch)
 - alienvault [otx]
 - riddler.io
+- suip.biz [Amass,Subfinder]
 
 #### Dependencies:
 
