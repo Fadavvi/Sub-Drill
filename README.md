@@ -23,7 +23,6 @@ chmod +x Sub-Drill.sh
 - riddler.io
 - suip.biz [Amass,Subfinder]
 - rapiddns.io
-- virustotal
 - web.archive.org
 
 
