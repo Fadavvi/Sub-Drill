@@ -22,6 +22,10 @@ chmod +x Sub-Drill.sh
 - alienvault [otx]
 - riddler.io
 - suip.biz [Amass,Subfinder]
+- rapiddns.io
+- virustotal
+- web.archive.org
+
 
 #### Dependencies:
 
