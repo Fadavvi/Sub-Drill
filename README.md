@@ -24,6 +24,7 @@ chmod +x Sub-Drill.sh
 - suip.biz [Amass,Subfinder]
 - rapiddns.io
 - web.archive.org
+- securitytrails.com
 
 
 #### Dependencies:
