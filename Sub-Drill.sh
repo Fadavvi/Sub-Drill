@@ -20,6 +20,7 @@ curl --silent --insecure --tcp-fastopen --tcp-nodelay https://riddler.io/search/
 curl --silent --insecure --tcp-fastopen --tcp-nodelay -X POST https://suip.biz/?act=amass -d "url=$1&Submit1=Submit"  | grep $1 | cut -d ">" -f 2 | awk 'NF' >> tmp.txt &
 curl --silent --insecure --tcp-fastopen --tcp-nodelay -X POST https://suip.biz/?act=subfinder -d "url=$1&Submit1=Submit"  | grep $1 | cut -d ">" -f 2 | awk 'NF' >> tmp.txt &
 curl --silent --insecure --tcp-fastopen --tcp-nodelay "https://securitytrails.com/list/apex_domain/$1" | grep -Po "((http|https):\/\/)?(([\w.-]*)\.([\w]*)\.([A-z]))\w+" | grep ".$1" | sort -u >> tmp.txt &
+curl --silent --insecure --tcp-fastopen --tcp-nodelay https://certificatedetails.com/zalan.do | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sed -e 's/^.//g' | sort -u >> tmp.txt &
 
 
 wait
