@@ -25,6 +25,7 @@ chmod +x Sub-Drill.sh
 - rapiddns.io
 - web.archive.org
 - securitytrails.com
+- certificatedetails.com
 
 
 #### Dependencies:
