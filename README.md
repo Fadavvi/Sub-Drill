@@ -29,6 +29,7 @@ chmod +x Sub-Drill.sh
 - securitytrails.com
 - certificatedetails.com
 - columbus.elmasy.com
+- webscout.io
 
 #### Dependencies:
 
