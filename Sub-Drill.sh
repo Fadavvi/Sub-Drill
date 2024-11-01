@@ -23,6 +23,8 @@ curl --silent --insecure --tcp-fastopen --tcp-nodelay "https://securitytrails.co
 curl --silent --insecure --tcp-fastopen --tcp-nodelay https://certificatedetails.com/$1 | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sed -e 's/^.//g' | sort -u >> /tmp/sub-drill-tmp.txt &
 curl --silent --insecure --tcp-fastopen --tcp-nodelay https://columbus.elmasy.com/report/$1 | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sort -u >> /tmp/sub-drill-tmp.txt &
 curl --silent --insecure --tcp-fastopen --tcp-nodelay https://webscout.io/lookup/$1 | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sort -u >> /tmp/sub-drill-tmp.txt &
+curl --silent --insecure --tcp-fastopen --tcp-nodelay "https://api.subdomain.center/?domain=$1&engine=cuttlefish" | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sort -u >> /tmp/sub-drill-tmp.txt &
+
 wait
 
 if [[ $# -eq 2 ]]; then
