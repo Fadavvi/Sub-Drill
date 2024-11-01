@@ -30,6 +30,7 @@ chmod +x Sub-Drill.sh
 - certificatedetails.com
 - columbus.elmasy.com
 - webscout.io
+- api.subdomain.center
 
 #### Dependencies:
 
