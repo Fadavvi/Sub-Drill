@@ -31,6 +31,7 @@ chmod +x Sub-Drill.sh
 - columbus.elmasy.com
 - webscout.io
 - api.subdomain.center
+- ip.thc.org
 
 #### Dependencies:
 
