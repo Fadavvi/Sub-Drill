@@ -32,6 +32,7 @@ chmod +x Sub-Drill.sh
 - webscout.io
 - api.subdomain.center
 - ip.thc.org
+- crt.name
 
 #### Dependencies:
 
